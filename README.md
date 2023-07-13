@@ -1,8 +1,8 @@
 # Convex Rust Starter Project
 
 This project contains a simple convex-chat backend implementation in `convex/`,
-as well as a Rust command line program that can watch the channel and send
-messages to the channel in `src/`.
+as well as a Rust command line program in `src/` that can either watch the channel
+and send messages.
 
 ![The chat app](convex-chat.png)
 
