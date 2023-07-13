@@ -1,0 +1,21 @@
+[package]
+name = "convex-chat"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "convex-chat"
+path = "src/main.rs"
+
+[profile.release]
+panic = "abort"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[dependencies]
+convex = "0.1"
+futures = "0.3"
+tokio = { features = [ "full" ], version = "1" }
+maplit = "1"
+clap = { version = "4", features = ["derive"] }
+tui = "0.19"
+crossterm = "0.25"
